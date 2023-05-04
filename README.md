@@ -77,7 +77,7 @@ plt.ylabel("$x_2$",fontsize=20)
 
 
     
-![png](README_files/README_5_1.png)
+![png](images/XOR Data 2.png)
     
 
 
