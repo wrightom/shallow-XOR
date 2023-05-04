@@ -77,7 +77,7 @@ plt.ylabel("$x_2$",fontsize=20)
 
 
     
-![XOR Data](images/xordata.png")
+![XOR Data](images/xordata.png)
     
 
 
@@ -325,7 +325,7 @@ def run_training(epochs = 70):
 #     nn.correct()
 ```
 
-The decision boundary works! (most of the time, depending on initial weights)
+The algorithm works! (most of the time, depending on initial weights)
 
 
 ```python
@@ -339,8 +339,14 @@ nn.plot(x1,x2,y)
 
 
     
-![png](README_files/README_17_0.png)
+![XOR Data](images/outputgood.png)
     
+
+Depending on initial weights, sometimes the algorithm cannot find a solution.
+
+![XOR Data](images/outputbad1.png)
+![XOR Data](images/outputbad2.png)
+![XOR Data](images/outputbad3.png)
 
 
 
@@ -355,7 +361,6 @@ nn.params()
     b2 = -5.993213406148147
     
 
-It does!!
 
 
 ```python
@@ -370,8 +375,7 @@ plt.plot(iter_dat,cost_dat)
 
 
 
-    
-![png](README_files/README_20_1.png)
+
     
 
 
@@ -429,11 +433,7 @@ plt.ylabel("Cost $C(\\theta)$\n(avg loss across entire dataset)")
 
 
     
-![png](README_files/README_25_1.png)
+![XOR Data](images/epochs.png)
     
 
 
-
-```python
-
-```
