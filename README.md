@@ -77,7 +77,7 @@ plt.ylabel("$x_2$",fontsize=20)
 
 
     
-![XOR Data](./images/XOR Data 2.png)
+![XOR Data]("./images/XOR Data 2.png")
     
 
 
