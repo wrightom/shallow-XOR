@@ -1,3 +1,5 @@
+> This code was submitted as part of my BSc Mathematics dissertation entitled 'Deep Learning and its Applications' (achieved first-class). To read my full dissertation see [dissertation.pdf](dissertation.pdf).
+
 # Training a shallow network to solve the XOR problem 
 
 
@@ -435,5 +437,6 @@ plt.ylabel("Cost $C(\\theta)$\n(avg loss across entire dataset)")
     
 ![XOR Data](images/epochs.png)
     
+
 
 
